@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(media/dark.jpg);
+    color: #fff; /* Белый текст */
+    background-size: 100%;
+}
+
+
+
+
+header {
+    background-color: #333; /* Темно-серый */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333; /* Темно-серый */
+    padding: 10px 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 10px; /* Добавляем отступ снизу */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s; /* Добавляем плавное изменение цвета при наведении */
+}
+
+a:hover {
+    color: #2ee934; /* Зеленоватый оттенок */
+}
+
+nav ul:hover li:not(:hover) a {
+    opacity: 0.7; /* Уменьшаем прозрачность остальных ссылок */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+    max-width: 1500px;
+    margin: 20px auto;
+    line-height: 1.6;
+    background-color: #222; /* Темно-серый фон */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.bg-color1 {
+    background-color: #333; /* Темно-серый фон */
+}
+
+.bg-color2 {
+    background-color: #444; /* Светло-серый фон */
+}
+
+.bg-color3 {
+    background-color: #555; /* Еще более светлый серый фон */
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px; /* Регулируйте отступы по вашему усмотрению */
+}
+
+.info-content {
+    flex: 1;
+    padding: 20px;
+    color: white; /* Белый текст */
+}
+
+.images {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.images img {
+    max-width: 350px; /* Регулируйте размеры изображений по вашему усмотрению */
+    margin: 0 10px; /* Регулируйте отступы между изображениями */
+}
+
+.impact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px; /* Регулируйте отступы по вашему усмотрению */
+}
+
+.impact-content {
+    flex: 1;
+    padding: 20px;
+    color: white; /* Белый текст */
+}
+
+.impact-images {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.impact-images img {
+    max-width: 350px; /* Регулируйте размеры изображений по вашему усмотрению */
+    margin: 0 10px; /* Регулируйте отступы между изображениями */
+}
+
+/* Новый класс "Эксперимент с ЭМИ" */
+.experiment-container {
+    background-color: #333; /* Темно-серый фон */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    color: white; /* Белый текст */
+}
+
+.experiment-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+}
+
+.experiment-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.experiment-images {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.experiment-images img {
+    max-width: 350px; /* Регулируйте размеры изображений по вашему усмотрению */
+    margin: 0 10px; /* Регулируйте отступы между изображениями */
+}
+
+.experiment-container > ul > li {
+    display: list-item;
+}
+
+.experiment-container > p > b {
+    font-size: 30px;
+}
+
+
+.contact-info > ul > li {
+    display: list-item;
+}
+
+.presentation-photos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentation-photos > .column > img {
+    width: 400px;
+}
